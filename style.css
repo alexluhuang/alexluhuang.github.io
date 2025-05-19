@@ -14,7 +14,6 @@ body{
     background-image: url(images/actual-background.png);
     background-size: cover;
     background-position: right;
-    margin-bottom: 20vh;
 }
 .container{
     color:#ffffff;
@@ -76,8 +75,9 @@ nav ul li a:hover::after{
 /* About */
 
 #about{
-    padding: 20vh 0px 10vh 0px;
+    padding: 10vh 0px 10vh 0px;
     color:#ababab;
+    position:relative;
 }
 .about-row-1{
     display: flex;
