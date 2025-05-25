@@ -367,8 +367,44 @@ nav ul li a:hover::after{
     transition: background 0.5s;
     color: #ffffff;
     text-decoration: none;
+    background: #000000;
+    font-size: 14px;
 }
 
 .btn-2:hover{
-    background: #ff004fs;
+    background: #ff004f;
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #ffffff;
+    font-size: 18 px;
+    border-radius: 6px;
+}
+
+form btn-2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Copyright */
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background:#262626;
+    font-weight: 300;
+    margin-top: 20px;
 }
