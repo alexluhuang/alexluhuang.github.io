@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alex Huang Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 <div id = "header">
@@ -49,33 +51,6 @@
         </div> 
     </div>
 </div>  
-<!--Skills-->
-<!-- <div id ="skills">
-    <div class = "container">
-        <h1 class="skills-sub-title">Skills</h1>
-        <div class = "skills-row-1">
-            <div class = "skills-col-1">
-                <h1>SWE</h1>
-                    <img src = "images/sweskills.png"> 
-
-            </div>
-            <div class = "skills-col-2">
-                <h1>MechE</h1>
-                    <img src = "images/mecheskills.png"> 
-
-            </div>
-            <div class = "skills-col-3">
-                <h1>Civil</h1>
-                    <img src = "images/civeskills.png">
-            </div>
-            <div class = "skills-col-4">
-                <h1>General</h1>
-                    <img src = "images/generalskills.png">
-
-            </div>
-        </div> 
-    </div>
-</div>   -->
 
 <!-- Skills -->
 <div id ="skills">
@@ -145,34 +120,66 @@
         <h1 class="projects-sub-title">Projects</h1>
         <div class = "work-list">
             <div class = "work">
-            <img src = "images/work-1.png">
-            <div class = "layer">
-                <a href = "https://www.google.com">
-                    <h3>Social Media App</h3>
-                    <p>blah blah blah</p>
-                </a>        
-            </div>
+                <img src = "images/work-1.png">
+                <div class = "layer">
+                    <a href = "https://www.google.com">
+                        <h3>Social Media App</h3>
+                        <p>blah blah blah</p>
+                    </a>
+                    <a href ="https://www.google.com" class = "btn">
+                        See More
+                    </a>        
+                </div>
             </div>  
             <div class = "work">
-            <img src = "images/work-2.png">
-            <div class = "layer">
-                <a href = "https://www.google.com">
-                    <h3>Online Shopping App</h3>
-                    <p>blah blah blah</p>
-                </a>
-            </div>
+                <img src = "images/work-2.png">
+                <div class = "layer">
+                    <a href = "https://www.google.com">
+                        <h3>Online Shopping App</h3>
+                        <p>blah blah blah</p>
+                    </a>
+                </div>
             </div>
             <div class = "work">
-            <img src = "images/work-3.png">
-            <div class = "layer">
-                <a href = "https://www.google.com">
-                    <h3>Social Media App</h3>
-                    <p>blah blah blah</p>
-                </a>
-            </div>            
+                <img src = "images/work-3.png">
+                <div class = "layer">
+                    <a href = "https://www.google.com">
+                        <h3>Social Media App</h3>
+                        <p>blah blah blah</p>
+                    </a>
+                </div>            
             </div>
         </div> 
     </div>
 </div>
+
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="contact-sub-title">Contact Me</h1>
+                <div class="email-and-phone">
+                    <p><i class="fa fa-paper-plane"></i>alexhuang@nyu.edu</p>
+                    <p><i class="fa fa-phone-square"></i>631-304-2063</p>
+                </div>
+                <div class="social-icons">
+                    <a href = "https://www.linkedin.com/in/alexluhuang"><i class="fa fa-linkedin"></i></a>
+                    <a href = "https://github.com/alexluhuang"><i class="fa fa-github"></i></a>
+                </div>
+                <a href ="Alex Huang - Resume 2.pdf" download class = "btn-2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type ="email" name ="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
