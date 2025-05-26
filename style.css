@@ -178,6 +178,9 @@ nav ul li a:hover::after{
     display: none;
 }
 
+.tab-contents.active-tab{
+    display:block;
+}
 
 /* Skills */
 
@@ -508,6 +511,12 @@ nav .fa{
         margin-bottom: 30px;
     }
     .about-col-2{
+        font-size: 14px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .copyright{
         font-size: 14px;
     }
 }
